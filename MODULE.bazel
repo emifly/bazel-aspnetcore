@@ -1,0 +1,1 @@
+bazel_dep(name = "rules_dotnet", version = "0.15.1")

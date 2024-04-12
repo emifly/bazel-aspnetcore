@@ -1,0 +1,11 @@
+load(
+    "@rules_dotnet//dotnet:defs.bzl",
+    "csharp_binary",
+)
+
+csharp_binary(
+    name = "OnlyEat",
+    srcs = glob(["*.cs"]),
+    project_sdk = "web",
+    target_frameworks = ["net8.0"],
+)
